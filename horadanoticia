@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(144, 238, 144, 0.3); /* Verde claro transparente */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #006400; /* Verde escuro */
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #006400;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .post {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .post h2 {
+            color: #006400;
+        }
+        .post p {
+            color: #333333;
+        }
+        footer {
+            background-color: rgba(144, 238, 144, 0.3);
+            padding: 10px;
+            text-align: center;
+            color: #006400;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog de Notícias</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="post">
+            <h2>Título da Notícia 1</h2>
+            <p>Resumo ou introdução da notícia. Este é um exemplo de como o conteúdo será exibido no blog.</p>
+        </div>
+        <div class="post">
+            <h2>Título da Notícia 2</h2>
+            <p>Resumo ou introdução da notícia. Este é um exemplo de como o conteúdo será exibido no blog.</p>
+        </div>
+        <!-- Adicione mais posts conforme necessário -->
+    </div>
+    <footer>
+        <p>Blog de Notícias © 2024</p>
+    </footer>
+</body>
+</html>
